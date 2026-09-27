@@ -1,0 +1,49 @@
+DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>vmegle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="home">
+
+        <div class="logo">vmegle</div>
+
+        <p class="subtitle">مكالمات فيديو عشوائية</p>
+
+        <p class="online">
+            🟢 المتصلون الآن:
+            <span id="onlineCount">0</span>
+        </p>
+
+        <button id="startBtn" class="start-btn">
+            Start
+        </button>
+
+        <!-- مربع الدردشة -->
+        <div id="chatBox" class="chat-box">
+
+            <div id="chatMessages" class="chat-messages">
+                <div class="system-message">
+                    اضغط Start للبدء بالمطابقة
+                </div>
+            </div>
+
+        </div>
+
+        <button id="helpBtn" class="help-btn">
+            مساعدة
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
