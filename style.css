@@ -1,0 +1,122 @@
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #050507;
+    color: white;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 55px;
+    font-weight: bold;
+    color: #a855f7;
+    text-shadow:
+        0 0 10px #8b2be2,
+        0 0 25px #7c1fd1;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #c8c8c8;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.online {
+    color: #bdbdbd;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#onlineCount {
+    color: #c084fc;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.start-btn {
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(168, 85, 247, 0.45);
+    border: 1px solid rgba(192, 132, 252, 0.7);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.25);
+    margin-bottom: 18px;
+}
+
+.start-btn:hover {
+    background: rgba(168, 85, 247, 0.7);
+}
+
+.chat-box {
+    width: 90%;
+    max-width: 500px;
+    min-height: 100px;
+    background: rgba(20, 15, 25, 0.9);
+    border: 1px solid rgba(168, 85, 247, 0.35);
+    border-radius: 14px;
+    padding: 15px;
+    margin-bottom: 18px;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.12);
+}
+
+.chat-messages {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.system-message {
+    color: #c084fc;
+    font-size: 15px;
+}
+
+.help-btn {
+    padding: 9px 25px;
+    border-radius: 10px;
+    background: rgba(168, 85, 247, 0.18);
+    border: 1px solid rgba(192, 132, 252, 0.35);
+}
+
+.help-btn:hover {
+    background: rgba(168, 85, 247, 0.35);
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 45px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .start-btn {
+        width: 200px;
+    }
+
+    .chat-box {
+        width: 95%;
+    }
+}￼Enter
